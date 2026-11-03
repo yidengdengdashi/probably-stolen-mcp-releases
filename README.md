@@ -21,6 +21,8 @@ Mod 的动作走游戏正常逻辑，会影响进度和后续自动存档。请�
 
 ## A. 游戏 Mod 安装
 
+工坊订阅：[深空当铺 MCP Bridge（实验版）](https://steamcommunity.com/sharedfiles/filedetails/?id=3833038046)。订阅后仍需安装下方外部 MCP 服务。
+
 有工坊发布页时：订阅、等待 Steam 下载完成、启动游戏，在 Mods 中启用 `Probably Stolen MCP Bridge (experimental)`，阅读并确认 `network` 能力提示，按游戏要求重启。首次启用不会自动开店或执行游戏动作。工坊包不包含 Python 服务。
 
 使用手动包时：退出游戏，把 `probably_stolen_bridge` 整个文件夹放到游戏安装目录的 `Mods` 中，使路径为 `Mods/probably_stolen_bridge/manifest.xml` 和同目录 DLL，然后在游戏 Mods 中启用并重启。不要把完整发行包或 Python 文件夹放进 Mods。
